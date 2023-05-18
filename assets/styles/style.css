@@ -1,0 +1,537 @@
+/* https://colorhunt.co/palette/fff8ea9e7676815b5b594545 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-padding-top: 74px;
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: #FFF8EA;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    background-color: #9E7676;
+    box-sizing: border-box;
+    border-bottom: 5px solid #594545;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    margin: 20px 0;
+    color: #594545;
+}
+
+.container{
+    display: flex;
+    background-color: #9E7676;
+    margin: 0 90px;
+    align-items: center;
+    color: #EEEBDD;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    flex-grow: 1;
+    margin-right: auto;
+    flex-basis: 50%;
+}
+
+.nav-ul{
+    display: inline-block;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.logo div{
+    margin: auto 0;
+}
+
+.logo p{
+    font-size: large;
+    display: inline-block;
+}
+
+.logo span{
+    font-weight:600;
+    font-size: larger;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #EEEBDD;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size:large;
+}
+
+nav ul li a:hover{
+    background-color: #815B5B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.min-display{
+    display: none;
+}
+
+/* ------------- main --------------- */
+
+main{
+    margin-top: 72px;
+}
+
+.myMargin{
+    margin: 0 100px;
+}
+
+.flex-jumbotron{
+    display: flex;
+    justify-content: space-around;
+    padding: 72px 0;
+    color: #594545;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin: auto 0;
+    padding: 30px 0;
+}
+
+.jumbotron img{
+    width: 500px;
+    border-radius: 15px;
+    border:15px solid white;
+    box-shadow: 5px 5px 15px black;
+}
+
+.title h1{
+    font-size: 64px;
+}
+
+.title span{
+    color: #9E7676;
+}
+.margin-in-section{
+    text-align: center;
+    padding: 72px 150px;
+}
+
+.types img{
+    width: 300px;
+    height: 300px;
+}
+
+.types{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.type-name{
+    margin: 20px 0;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.background-color-of-section{
+    background-color: #9E7676;
+}
+
+.one{
+    color: #FFF8EA;
+}
+
+#pempek .p-margin{
+    margin-bottom: 72px;
+}
+
+p a{
+    text-decoration: none;
+    color: #FFF8EA;
+}
+
+p a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+h2.two{
+    margin: 20px 0 20px 0;
+    color: #FFF8EA;
+}
+
+.cuko-images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cuko-images img{
+    width: 400px;
+    margin: 20px 0;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+aside figure img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+aside figure{
+    margin: 20px 0;
+}
+
+.warna{
+    color: #594545;
+}
+
+.type-name figcaption{
+    background-color: #594545;
+}
+
+/* ----------- footer ------------- */
+
+footer{
+    text-align: center;
+    color: #FFF8EA;
+    background-color: #594545;
+    padding: 50px 0;
+}
+
+/* ----------- responsive ------------- */
+@media screen and (max-width: 1201px) {
+    .container{
+        margin: 0 40px;
+    }
+
+    nav ul li a{
+        margin-right: 7px;
+        margin-left: 7px;
+        padding: 7px;
+        font-size:large;
+    }
+
+    .jumbotron img{
+        width: 400px;
+    }
+
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+    }
+
+    .margin-in-section{
+        text-align: center;
+        padding: 72px 150px;
+    }
+
+    .myMargin{
+        margin: 0 100px;
+    }
+
+    .types{
+        justify-content: space-around;
+    }
+    
+    .types img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .cuko-images img{
+        width: 240px;
+    }
+
+    aside figure img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        margin: 0 40px;
+    }
+
+    nav ul li a{
+        margin-right: 2px;
+        margin-left: 2px;
+        padding: 2px;
+        font-size:large;
+    }
+    
+    .jumbotron img{
+        width: 320px;
+    }
+
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+    }
+
+    .margin-in-section{
+        text-align: center;
+        padding: 72px 50px;
+    }
+
+    .myMargin{
+        margin: 0 60px;
+    }
+
+    .types{
+        justify-content: space-around;
+    }
+    
+    .types img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .cuko-images img{
+        width: 225px;
+    }
+
+    aside figure img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .min-display{
+        display:inline-block;
+        background-color: transparent;
+        padding: 5px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        position: absolute;
+        top: 14px;
+        right: 0;
+    }
+
+    .burger {
+        width: 32px;
+        height: 32px;
+    }
+
+    .myNav{
+        display: none;
+    }
+
+    .nav-ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .nav-ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    .nav-ul li a{
+        font-size: large;
+        padding: 8px 16px;
+        display: block;
+        border-radius: 5px;
+        transition: 0.2s linear;
+    }
+    
+    .nav-ul li a:hover {
+        color: #594545;
+        background-color: #EEEBDD;
+    }
+    
+    .nav-ul {
+        display: block;
+    }
+    
+    .container{
+        display: inline-block;
+        margin: 0 40px;
+        width: 85%;
+    }
+
+    nav{
+        margin: auto 50px auto auto;
+    }
+
+    .title h1{
+        font-size: 24px;
+    }
+
+    .jumbotron img{
+        width: 250px;
+        border-radius: 7px;
+        border:7px solid white;
+        box-shadow: 2px 3px 10px black;
+    }
+
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+    }
+
+    .margin-in-section{
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .myMargin{
+        margin: 0 30px;
+    }
+
+    .cuko-images img{
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .jumbotron img{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .container{
+        margin: 0 40px;
+    }
+
+    nav{
+        margin: auto 30px auto auto;
+    }
+
+    .logo p{
+        display: none;
+    }
+
+    .title h1{
+        font-size: 24px;
+    }
+
+    .jumbotron img{
+        width: 200px;
+        border-radius: 7px;
+        border:7px solid white;
+        box-shadow: 2px 3px 10px black;
+    }
+
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+    }
+
+    .margin-in-section{
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .myMargin{
+        margin: 0 30px;
+    }
+
+    .cuko-images img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:448px) {
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+        order: 2;
+    }
+
+    .flex-jumbotron .gambar{
+        order: 1;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .jumbotron img{
+        width: 180px;
+        border-radius: 7px;
+        border:7px solid white;
+        box-shadow: 2px 3px 10px black;
+    }
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+        order: 2;
+    }
+
+    .flex-jumbotron .gambar{
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container{
+        margin: 0 20px;
+    }
+
+    nav{
+        margin: auto 20px auto auto;
+    }
+
+    .logo p{
+        display: none;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+
+    .jumbotron img{
+        width: 140px;
+        border-radius: 7px;
+        border:7px solid white;
+        box-shadow: 2px 3px 10px black;
+    }
+
+    .flex-jumbotron .title{
+        flex-basis: 45%;
+    }
+
+    .margin-in-section{
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .myMargin{
+        margin: 0 30px;
+    }
+
+    .cuko-images img{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .logo span{
+        display: none;
+    }
+}
+
+/* saya harus masih banyak belajar */
